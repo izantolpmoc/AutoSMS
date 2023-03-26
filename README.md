@@ -7,3 +7,7 @@
 - Send direct text messages
 - Send scheduled text messages
 - Send auto replies to incoming text messages (and cancel the service whenever they want).
+
+## Note:
+- This application works on emulated phones through Android Studio (tested on Pixel 6 PRO).
+- Schedules messages cannot be canceled, be careful.
