@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/selectedContacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aucun contact sélectionné pour l'instant." />
+
+    <TextView
+        android:id="@+id/selectedMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aucun message renseigné pour l'instant." />
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"/>
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner"/>
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Envoyer" />
+
+    <Button
+        android:id="@+id/sendLaterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Plannifier un envoi futur" />
+
+    <Button
+        android:id="@+id/autoReplyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Définir en tant que réponse automatique" />
+
+    <TextView
+        android:id="@+id/currentServices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aucune réponse automatique activée pour l'instant." />
+
+    <Button
+        android:id="@+id/endServiceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terminer" />
+
+</LinearLayout>
